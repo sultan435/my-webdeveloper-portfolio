@@ -24,6 +24,7 @@ body {
     font-weight: 700;
 
 }
+
 .section-discription {
     color: #757575;
     text-align: center;
@@ -106,10 +107,11 @@ nav a {
 
 /* main section */
 
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
+
 /* about section */
 .about {
     padding: 130px;
@@ -117,19 +119,40 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-.info-title{
-    color: #757575;   
+
+.info-title {
+    color: #757575;
 }
 
-.info-discription{
+.info-discription {
     color: #6b6a6a;
     font-size: 20px;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+/* what i do section */
+#shuvo {
+    padding: 30px 150px;
+}
+
+.skills-contioner {
+    display: flex;
+    gap: 20px;
+}
+
+.skill-box {
+    padding: 30px;
+    
+    border-radius: 5px;
+    background: #613535;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
