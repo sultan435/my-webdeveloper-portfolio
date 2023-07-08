@@ -193,10 +193,58 @@ main section {
     color: #757575;
     font-weight: 400;
 }
+
 .resume-container hr {
     margin: 30px;
 }
-.downlond-cv{
+
+.downlond-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer style */
+
+.footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 110px;
+
+}
+.section-title-name {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-discription-mam{
+    color: #757575;
+    font-weight: 400;
+}
+
+.social-icon a{
+    margin-right: 20px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contactss input[type="text"], input[type="email"] ,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    color: #757575;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+   
+}
+.sultan{
+    text-align: center;
+    color: #474747;
 }
